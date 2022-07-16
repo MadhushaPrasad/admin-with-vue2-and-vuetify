@@ -171,8 +171,14 @@
 </template>
 
 <script>
+import Nav from '../components/Nav.vue';
+import Menu from '../components/Menu.vue';
 export default {
   name: 'Layout',
+  components: {
+    Nav,
+    Menu,
+  },
 };
 </script>
 

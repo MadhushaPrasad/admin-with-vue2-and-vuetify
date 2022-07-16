@@ -4,12 +4,8 @@
 
 <script lang="ts">
 import Vue from 'vue';
-import Nav from './components/Nav.vue';
-import Menu from './components/Menu.vue';
-
 export default Vue.extend({
   name: 'App',
-  components: { Nav, Menu },
 });
 </script>
 
