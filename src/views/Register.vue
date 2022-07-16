@@ -1,7 +1,7 @@
 <template>
   <div class="form-signin">
     <form>
-      <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+      <h1 class="h3 mb-3 fw-normal text-center">Please Register</h1>
 
       <div class="form-floating">
         <input
