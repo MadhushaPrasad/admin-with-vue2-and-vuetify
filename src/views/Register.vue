@@ -73,13 +73,16 @@ export default {
   },
   methods: {
     async submit() {
-      await axios.post('http://localhost:8000/api/admin/register', {
+
+      const userObject = {
         firstName: this.firstName,
         lastName: this.lastName,
         email: this.email,
         password: this.password,
         password_confirm: this.password_confirm,
-      });
+      }
+
+      await axios.post('http://localhost:8000/api/admin/register', userObject);
 
       await this.$router.push('/login');
     },
